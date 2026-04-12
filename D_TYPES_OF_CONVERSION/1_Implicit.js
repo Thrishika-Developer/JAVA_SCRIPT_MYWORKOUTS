@@ -13,7 +13,7 @@ var firstNumber = "100"
 var secondNumber = 500
 
 var result = firstNumber - secondNumber;
-console.log("subraction :",result)
+console.log("subtraction :",result)
 //multiply
 var firstNumber = "100"
 var secondNumber = 500
