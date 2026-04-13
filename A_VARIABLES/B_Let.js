@@ -1,4 +1,5 @@
-// let-reassign but not redeclare
+// let -->reassign but not redeclare
+//     -->block scope
 let number1 = 1000;
 let number2 = 2000;
 number1 = 3000

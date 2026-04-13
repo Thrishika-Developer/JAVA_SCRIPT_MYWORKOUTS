@@ -1,7 +1,9 @@
-// variable-Reassign and redeclare 
+// variable
+// --->Reassign and redeclare
+// ---> allow function (or) global scope
 var number1 = 1000;
 var number2 = 2000;
-number1 = 3000
+number1 = 3000 
  
 var result = number1 + number2;
 console.log("result=",result)
