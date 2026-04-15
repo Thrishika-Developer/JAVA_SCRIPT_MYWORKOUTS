@@ -17,9 +17,21 @@
 // this keyword using arrow function
 //       ---> arrow function is focused on outer function
 //       ---> arrow function not used object
+// this.employee_firstName = "thrisha";
+// this.employee_lastName = "n s";
+// const employee ={
+//     emId : 121,
+//     employee_firstName : "thrishika",
+//     employee_lastName : "N S",
 
-
-// console.log(employeesFullName) //thrishan s
+//     employee_fullName :()=>{
+//         return this.employee_firstName + "" + this.employee_lastName;
+        
+//     }
+    
+// }
+// let employeeFullName = employee.employee_fullName()   
+// console.log(employeeFullName)  //thrishan s
 
 
 

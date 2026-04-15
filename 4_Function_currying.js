@@ -81,7 +81,7 @@ function add(a){
     }
 }
 let result = add(2)(3)
-// console.log(result)
+// console.log(result) //5
 
 // EXample 6
 function greet(name){
@@ -89,6 +89,7 @@ function greet(name){
         console.log(name + ":" + message);
     }
 }
-let messages = greet("thrishika")("singer")
+let messages = greet("thrishika")("singer")  //thrishika:singer
+
 
 
