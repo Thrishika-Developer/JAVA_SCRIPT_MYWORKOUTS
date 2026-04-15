@@ -40,7 +40,7 @@ function test(){
 {
     var x=100;
 }
-// console.log(x) //var ignores the block
+// console.log(x) //100  //var ignores the block
 
 {
     let y = 100;
