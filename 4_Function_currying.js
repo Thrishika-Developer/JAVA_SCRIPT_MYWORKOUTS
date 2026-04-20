@@ -86,10 +86,24 @@ let result = add(2)(3)
 // EXample 6
 function greet(name){
     return function(message){
-        console.log(name + ":" + message);
+        // console.log(name + ":" + message);
     }
 }
 let messages = greet("thrishika")("singer")  //thrishika:singer
+
+//currying
+function employeeSalary(basic,hra,pa){
+    return function(pf){
+      let salary = (basic + hra + pa) - pf
+
+      return function(tax){
+        let netSalary = salary - (salary * 8/100)
+        return netSalary;
+      }
+}
+}
+let netSalary = employeeSalary(5000,2500,50000)(3600)(8)
+console.log(netSalary)  //49588
 
 
 
