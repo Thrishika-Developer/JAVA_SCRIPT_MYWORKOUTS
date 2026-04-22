@@ -9,13 +9,14 @@
 // console.log(reversedArr)   //  [ 'orange', 'mango', 'pineapple', 'cova', 'apple' ]
 
 
-//HOF- Higher order function
+//HOF- Higher order function ,positive - swipe negative - not swipe
 // let num =[200,1,50,60,84,45,30,2,5,90]
 // let sort = num.sort((a,b)=>{
 //     return a-b
 // })
 // console.log(sort)  //[1,  2,  5, 30,  45,50, 60, 84, 90, 200]
 
+//positive - not swipe negative -  swipe
 // let num =[200,1,50,60,84,45,30,2,5,90]
 // let reverse = num.sort((a,b)=>{
 //     return b - a
