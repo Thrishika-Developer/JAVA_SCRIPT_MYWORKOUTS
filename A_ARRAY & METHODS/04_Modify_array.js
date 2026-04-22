@@ -20,10 +20,10 @@
 // console.log(arr) //[ 1, 2, 3, 4, 5, 6, 7 ]
 
 
-// Replace
+// // Replace
 // let arr = [1,2,3,4,5]
-// arr.splice(1,4,99)
-// console.log(arr)  //[ 1, 99 ]
+// arr.splice(1,2,99)
+// console.log(arr)  //[ 1, 4,99 ]/start,delete,item/
 
 //------------------>slice()-cut portion
 // let arr = [10,20,30,40,50]
