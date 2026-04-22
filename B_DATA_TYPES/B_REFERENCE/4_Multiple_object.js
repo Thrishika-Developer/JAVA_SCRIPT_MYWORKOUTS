@@ -24,3 +24,4 @@ const employee = [
 ]
 console.log("employee  :",employee[0].name)
 console.log("employee  :",employee[0])
+console.log("employee skillset : ",employee[1].skillset[1])
