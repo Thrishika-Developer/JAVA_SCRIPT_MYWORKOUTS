@@ -11,4 +11,6 @@ let firstValues = "100";
 let secondValues = 100;
 let results= (firstValues === secondValues)
 console.log(results)
+let result = (firstValues == secondValues)
+console.log(result)
 
