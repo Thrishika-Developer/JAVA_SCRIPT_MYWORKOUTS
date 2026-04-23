@@ -66,15 +66,8 @@
 // }) //product 180
 
 //API style
-// function fetchData(callback){
-//     setTimeout(() => {
-//         const data = { id:1,name : " thrishika "}
-//         callback(data);    
-//     }, 1000);
-// }
-// fetchData(function(result){
-//     console.log(result)      //{ id: 1, name: ' thrishika ' }
-// })
+
+
 
 
 // callbacks hell- When multiple callbacks are nested inside each other, making the code hard to read and maintain.
@@ -97,7 +90,7 @@
 // }
 // function accuratePrice(accPrice,offer){
 //     setTimeout(() => {
-//         accuPrice = accPrice - offer
+//          let accuPrice = accPrice - offer
 //         console.log("accuratePrice===>",accuPrice) 
 //     }, 1000);
 // }
