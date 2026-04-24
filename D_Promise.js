@@ -5,6 +5,8 @@
 
 // console.log(number) //Promise { 100 }
 
+
+
 //how to call promise values
 // let number =  new Promise((resolve,reject) =>
 //    resolve(50))
@@ -17,6 +19,11 @@
 //     console.log("error===>",exception)
 // })                                             //error===> 100
 
+
+
+
+
+
 //simple method
 
 // let number = new Promise((resolve,reject)=> resolve(100))
@@ -28,6 +35,10 @@
 // candidateName.then(item => console.log("resolved====>",item))
 // .catch(error => console.log(error))           //resolved====> thrishika
 
+
+
+
+//function promise
 // function product(){
 //     let productprice = 5000;
 //     return new Promise((resolve,reject)=>{
@@ -38,6 +49,35 @@
 // }
 
 // product().then(item =>console.log("resolve==>",item))   //resolve==> 5000
+
+
+//more function with promise
+function product(){
+    let productprice = 5000;
+    return new Promise((resolve,reject)=>{
+        setTimeout(() => {
+            // resolve(productprice)
+            reject("product failed")
+        }, 3000);
+    })
+}
+
+function offer(price){
+    let offerPercentage = 3;
+    return new Promise((resolve,reject)=>{
+        setTimeout(() => {
+            let offerPrice = (price * offerPercentage)/100;
+            resolve(offerPrice)  
+        },4000);
+    })
+}
+
+product().then((price)=>
+    offer(price).then((offerAmt)=>{
+        console.log(offerAmt)
+    })
+)
+.catch((error)=>console.log(error));
 
 
 
