@@ -32,3 +32,5 @@ const querySelectorAll = document.querySelectorAll("#firstId")
 document.querySelectorAll("#firstId").forEach(element =>{
     console.log(element)
 })  // <p id="firstId">Hello first program</p>  <h1 id="firstId">Hello first program</h1> <h2 id="firstId">Hello third program</h2>
+
+
