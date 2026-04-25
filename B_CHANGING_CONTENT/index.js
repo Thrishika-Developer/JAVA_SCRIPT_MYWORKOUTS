@@ -57,17 +57,17 @@
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //Add class
-const paragraph = document.querySelector("#para").classList.add("active")
+// const paragraph = document.querySelector("#para").classList.add("active")
 
-//---------------------------------------------------------------------------------------------
-//remove clss
+// //---------------------------------------------------------------------------------------------
+// //remove clss
 
-const paragraphs =document.querySelector("#para").classList.remove("active")
+// const paragraphs =document.querySelector("#para").classList.remove("active")
 
-//---------------------------------------------------------------------------------------------------------------------
-//toggle class - switch , add to remove,show to hide
+// //---------------------------------------------------------------------------------------------------------------------
+// //toggle class - switch , add to remove,show to hide
 
-const paragrap = document.querySelector("#para").classList.toggle("active")
+// const paragrap = document.querySelector("#para").classList.toggle("active")
 
 //---------------------------------------------------------------------------------------------------------
 
@@ -88,3 +88,9 @@ const paragrap = document.querySelector("#para").classList.toggle("active")
 //     texting.style.backgroundColor = "orange";
 //     texting.classList.toggle("active")
 // })
+
+//--------------------------------------------------------------------------------------------------------------
+//Input box
+
+const username = document.getElementById("username")
+username.value = "thrishikasinger999@gmail.com"
