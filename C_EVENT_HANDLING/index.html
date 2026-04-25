@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Index page</title>
+    <link rel='stylesheet' href='./index.css'>
+</head>
+<body>
+    <!-- method1 -->
+    <div class="button">
+         <button id="btn">click me</button>
+         <hr>
+         <!-- event handing -->
+          
+        <label for="">Username</label>
+        <input type="text" id="username">
+    </div>
+    <hr>
+    <!-- attributes event handling -->
+    <div class="button">
+        <button id="btn" onclick="clickme()">clickme</button>
+        <input type="text" id="username" onchange="changeEvent(event)">
+    </div>
+    
+
+
+<script src="./index.js"></script>
+</body>
+</html>
