@@ -31,19 +31,23 @@ form.addEventListener("submit", (e) => {
 
 ### 4. Getting Input Values
 
-```const input = document.querySelector("#username");
+
+```
+const input = document.querySelector("#username");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log(input.value);
-});```
+});
+
+```
 
 👉 input.value → user entered data
 
 
 ### 5. Multiple Inputs Example
-
-```const name = document.querySelector("#name");
+```
+const name = document.querySelector("#name");
 const email = document.querySelector("#email");
 
 form.addEventListener("submit", (e) => {
@@ -51,13 +55,14 @@ form.addEventListener("submit", (e) => {
 
   console.log("Name:", name.value);
   console.log("Email:", email.value);
-});```
+});
+```
 
 
 ### 6. Form Validation 🔥
 
-
-```form.addEventListener("submit", (e) => {
+```
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   if (name.value === "") {
@@ -65,39 +70,46 @@ form.addEventListener("submit", (e) => {
   } else {
     console.log("Form submitted");
   }
-});```
+});
+
+```
 
 👉 Check before submitting
 
 ### 7. Reset Form
 
 
-```form.addEventListener("submit", (e) => {
+```
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   console.log("Submitted!");
   form.reset();
-});```
+});
 
+```
 👉 Clears all input fields
 
 ### 8. Real-Time Input Handling
+
 
 ```
 input.addEventListener("input", (e) => {
   console.log("Typing:", e.target.value);
 });
+
 ```
 👉 Runs while typing
 
 ### 9. Access Form Elements Directly
 
-
-```form.addEventListener("submit", (e) => {
+```
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   console.log(e.target.name.value);
-});```
+});
+```
 
 👉 Access using:
 
@@ -105,6 +117,7 @@ input.addEventListener("input", (e) => {
 
 
 ### 10. Real Example (Mini App)
+
 ```
 const form = document.querySelector("#myform");
 const input = document.querySelector("#task");
@@ -119,7 +132,10 @@ form.addEventListener("submit", (e) => {
   list.appendChild(li);
 
   input.value = "";
-});```
+});
+
+```
+
 
 👉 Adds items to list (like Todo app)
 
