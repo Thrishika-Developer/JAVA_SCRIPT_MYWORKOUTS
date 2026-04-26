@@ -18,3 +18,9 @@ btns.addEventListener("click",()=>{
     })
    
 })
+
+//toggle class using list4
+function toggleAction(){
+    const togglecontainer = document.querySelector(".toggle-class")
+    togglecontainer.classList.toggle("hideshow")
+}

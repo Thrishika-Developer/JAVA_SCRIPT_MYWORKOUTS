@@ -11,9 +11,13 @@
     margin-bottom: 10px;
     padding: 20px;
 }
-.btn-three{  color:white;
+.btn-three{  
+    color:white;
     background-color: rgb(84, 8, 139);
     margin-bottom: 10px;
     padding: 20px;
 
+}
+.hideshow{
+    display: none;
 }

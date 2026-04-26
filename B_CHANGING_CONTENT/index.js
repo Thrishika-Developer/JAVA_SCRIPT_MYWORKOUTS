@@ -92,5 +92,12 @@
 //--------------------------------------------------------------------------------------------------------------
 //Input box
 
-const username = document.getElementById("username")
-username.value = "thrishikasinger999@gmail.com"
+// const username = document.getElementById("username")
+// username.value = "thrishikasinger999@gmail.com"
+
+//----------------------------------------------------------------------------------------------------------------------
+const element = document.querySelector(".contain")
+element.style.color ="white"
+element.style.backgroundColor = "green"
+element.style.padding ="20px"
+element.style.marginTop = "80px"
