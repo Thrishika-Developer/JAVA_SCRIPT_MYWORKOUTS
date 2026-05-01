@@ -1,4 +1,4 @@
-//  trim() -  remove spaces stating and ending inside the quotation
+//  trim() -  remove spaces starting and ending inside the quotation
 
 let string = "  hi  word  "
 // console.log(string.length)  //12
