@@ -1,4 +1,4 @@
-//parseInt - conver string into an integer
+//parseInt - convert string into an integer
 //string to integer
 
 // let str = "100";

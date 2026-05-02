@@ -1,13 +1,13 @@
 //getSeconds() - get seconds
 
-// let timeStap = new Date();
-// let sec= timeStap.getSeconds();
+// let timeStamp = new Date();
+// let sec= timeStamp.getSeconds();
 // console.log(sec) //54
 
 
 //min clock
-// let timeStap = new Date();
-// let hours = timeStap.getHours();
-// let minutes = timeStap.getMinutes();
-// let seconds = timeStap.getSeconds();
+// let timeStamp = new Date();
+// let hours = timeStamp.getHours();
+// let minutes = timeStamp.getMinutes();
+// let seconds = timeStamp.getSeconds();
 // console.log(hours + ":" + minutes + ":" +seconds) //8:19:53
